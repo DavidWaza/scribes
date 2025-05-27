@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {  Geist_Mono, Gentium_Book_Plus } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Header";
+import Footer from "./components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const gentiumBookPlus = Gentium_Book_Plus({
+  variable: "--font-gentium-book-plus",
   subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 const geistMono = Geist_Mono({
@@ -25,9 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${gentiumBookPlus.className} ${geistMono.variable} antialiased !bg-white`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
