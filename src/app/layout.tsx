@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import {  Geist_Mono, Gentium_Book_Plus } from "next/font/google";
+import { Geist_Mono, Gentium_Book_Plus } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Header";
 import Footer from "./components/Footer";
+import JoinCommunity from "./components/Community";
 
 const gentiumBookPlus = Gentium_Book_Plus({
   variable: "--font-gentium-book-plus",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <JoinCommunity />
         <Footer />
       </body>
     </html>

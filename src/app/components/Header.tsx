@@ -46,7 +46,7 @@ const Navbar = () => {
 
   const navItems = [
     { href: "/about", label: "About Us" },
-    { href: "/workshops", label: "Workshop & Events" },
+    { href: "/workshop-and-event", label: "Workshop & Events" },
     { href: "/spotlight", label: "Member's Spotlight" },
   ];
 
