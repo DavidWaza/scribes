@@ -149,7 +149,7 @@ const AboutUs = () => {
           </motion.div>
 
           <motion.div
-            className="w-full md:w-3/5 flex-shrink-0 relative z-20 p-8 md:p-12 bg-[#16213e]/70 rounded-xl shadow-2xl border border-[#0f3460] transform md:-translate-x-24 lg:-translate-x-32 md:rotate-[-2deg]"
+            className="w-full md:w-3/5 flex-shrink-0 relative z-20 p-8 md:p-12 bg-[#16213e]/70 rounded-xl shadow-2xl border border-[#0f3460]"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}

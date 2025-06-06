@@ -112,7 +112,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-12 border-t border-slate-700 pt-6 text-center text-sm text-slate-500">
-        © {new Date().getFullYear()} Binary Consolidate. All rights reserved.
+        © {new Date().getFullYear()} Binary Consolidatenpm run de. All rights reserved.
       </div>
     </footer>
   );
