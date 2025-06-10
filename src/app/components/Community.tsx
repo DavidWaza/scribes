@@ -2,9 +2,8 @@
 
 import Image from "next/image";
 import React from "react";
-import { Users, ChatDots } from "@phosphor-icons/react"; // Added icons
+import { Users, ChatDots } from "@phosphor-icons/react";
 
-// Array of Tailwind CSS gradient classes for avatar backgrounds
 const avatarGradientClasses = [
   "bg-gradient-to-br from-green-400 to-blue-500",
   "bg-gradient-to-br from-pink-400 to-yellow-500",
@@ -15,14 +14,13 @@ const avatarGradientClasses = [
 ];
 
 const CommunitySectionRedesigned = () => {
-  // Placeholder data for avatars - in a real app, this would come from props or state
   const communityMembers = [
-    { id: 1, name: "User 1", imageUrl: "/av.jpg" },
-    { id: 2, name: "User 2", imageUrl: "/av.jpg" },
-    { id: 3, name: "User 3", imageUrl: "/av.jpg" },
-    { id: 4, name: "User 4", imageUrl: "/av.jpg" },
-    { id: 5, name: "User 5", imageUrl: "/av.jpg" },
-    { id: 6, name: "User 6", imageUrl: "/av.jpg" },
+    { id: 1, name: "User 1", imageUrl: "/african-teenage-girl-portrait-happy-smiling-face.jpg" },
+    { id: 2, name: "User 2", imageUrl: "/black-man-posing.jpg" },
+    { id: 3, name: "User 3", imageUrl: "/christina-wocintechchat-com-Zpzf7TLj_gA-unsplash.jpg" },
+    { id: 4, name: "User 4", imageUrl: "/confident-business-woman-portrait-smiling-face.jpg" },
+    { id: 5, name: "User 5", imageUrl: "/prince-akachi-J1OScm_uHUQ-unsplash.jpg" },
+    { id: 6, name: "User 6", imageUrl: "/alex-starnes-WYE2UhXsU1Y-unsplash.jpg" },
   ];
 
   return (

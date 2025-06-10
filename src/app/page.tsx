@@ -11,7 +11,7 @@ export default function Home() {
     <Herobanner />
     <AboutUs />
     <WhyScribes />
-   
+
     <Faq />
     <NewsletterSignup />
    </div>

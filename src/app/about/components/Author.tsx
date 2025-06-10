@@ -133,9 +133,6 @@ const FounderSection = () => {
             variants={textVariants}
             className="relative mt-6 pl-8 text-xl text-gray-600 leading-relaxed border-l-2 border-[#321C55]"
           >
-            <span className="absolute -left-5 top-0 text-6xl text-[#321C55] font-serif">
-              “
-            </span>
             <div className="space-y-4">
               <p>
                 Emy&apos;s journey began with a simple love for stories,
@@ -160,14 +157,6 @@ const FounderSection = () => {
               </p>
             </div>
           </motion.blockquote>
-
-          <motion.p
-            variants={textVariants}
-            className="text-3xl mt-6 text-gray-800"
-            style={{ fontFamily: "'Dancing Script', cursive" }}
-          >
-            Emediong Akpan
-          </motion.p>
         </div>
       </motion.div>
     </section>
